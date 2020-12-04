@@ -26,7 +26,7 @@ public class Reader {
                     if(elems[i%31].equals("."))ret[line][i] = 0;
                     else ret[line][i] = 1;
                 }
-                line+=ymulti;
+                line++;
             }
         } catch (IOException e) {
             e.printStackTrace();
